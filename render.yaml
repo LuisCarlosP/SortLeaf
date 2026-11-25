@@ -12,6 +12,8 @@ services:
     envVars:
       - key: ENVIRONMENT
         value: production
+      - key: FRONTEND_URL
+        value: https://sortleaf.vercel.app
       - key: MODEL_PATH
         value: /app/models/SortLeafV2.tflite
       - key: REDIS_URL

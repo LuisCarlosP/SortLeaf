@@ -8,10 +8,22 @@ import pytest
 SIGNUP = {"email": "reader@example.org", "name": "Test", "last_name": "User", "password": "Password1234"}
 
 
-def test_production_without_frontend_holds_email_requests(client, monkeypatch):
+def test_production_without_override_uses_sortleaf_recovery_url(client, monkeypatch):
     from services import supabase_auth_service
     monkeypatch.setattr(supabase_auth_service, "ENVIRONMENT", "production")
     monkeypatch.setattr(supabase_auth_service, "_FRONTEND_URL", "")
+    with patch("core.identity.user_client") as factory:
+        result = client.post("/auth/forgot-password", json={"email": SIGNUP["email"]})
+        assert result.status_code == 200
+        factory.return_value.auth.reset_password_email.assert_called_once_with(
+            SIGNUP["email"], options={"redirect_to": "https://sortleaf.vercel.app/auth/reset-password"}
+        )
+
+
+def test_production_with_insecure_frontend_holds_email_requests(client, monkeypatch):
+    from services import supabase_auth_service
+    monkeypatch.setattr(supabase_auth_service, "ENVIRONMENT", "production")
+    monkeypatch.setattr(supabase_auth_service, "_FRONTEND_URL", "http://localhost:5173")
     with patch("core.identity.user_client") as factory:
         for path, payload in [
             ("/auth/register", SIGNUP),

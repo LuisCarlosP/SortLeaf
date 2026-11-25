@@ -77,7 +77,7 @@ The root `render.yaml` configures a single free Docker web service. To update an
 
 Set `API_KEY`, `GROQ_API_KEY`, `SUPABASE_URL`, `SUPABASE_KEY` (anon key), and `SUPABASE_SERVICE_KEY` (server role) in Render. Use the same production `API_KEY` in Vercel and set its `BACKEND_URL` to the Render service's HTTPS origin. For an existing service, update earlier overrides of `MODEL_PATH`, `ENVIRONMENT` and `REDIS_URL` to the values in the Blueprint. The image requires a single worker for the in-memory rate limits.
 
-Guest chat needs anonymous sign-in enabled in Supabase and the SQL migrations in `supabase/migrations`. When the frontend domain is available, set `FRONTEND_URL` on Render and the Site URL in Supabase. Allow its exact `/auth/callback` and `/auth/reset-password` URLs in Supabase Auth. Until an HTTPS frontend is configured, requests that send registration or recovery emails return 503. The remaining API endpoints can start independently.
+Guest chat needs anonymous sign-in enabled in Supabase and the SQL migrations in `supabase/migrations`. Production email links use `https://sortleaf.vercel.app` by default. To change domains, set `FRONTEND_URL` on Render, update the Site URL in Supabase, and allow the exact `/auth/callback` and `/auth/reset-password` URLs on the new domain.
 
 ## Running Tests
 

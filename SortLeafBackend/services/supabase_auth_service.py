@@ -37,8 +37,11 @@ logger = logging.getLogger(__name__)
 _FRONTEND_URL = FRONTEND_URL.rstrip('/')
 
 def email_callback(path: str) -> str:
-    if ENVIRONMENT == "production" and not _FRONTEND_URL.startswith("https://"):
-        raise SortLeafException("verification_unavailable", 503)
+    if ENVIRONMENT == "production":
+        origin = _FRONTEND_URL or "https://sortleaf.vercel.app"
+        if not origin.startswith("https://"):
+            raise SortLeafException("verification_unavailable", 503)
+        return origin + path
     return (_FRONTEND_URL or "http://localhost:5173") + path
 
 def verification_error(error: AuthApiError) -> SortLeafException:

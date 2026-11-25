@@ -3,8 +3,15 @@ project_id = "sortleaf"
 [auth]
 enabled = true
 enable_anonymous_sign_ins = true
-site_url = "http://localhost:5173"
-additional_redirect_urls = ["http://localhost:5173/auth/callback", "http://localhost:5173/auth/reset-password", "https://luiscarlosp.github.io/SortLeafFrontend/auth/callback", "https://luiscarlosp.github.io/SortLeafFrontend/auth/reset-password"]
+site_url = "https://sortleaf.vercel.app"
+additional_redirect_urls = [
+  "http://localhost:5173/auth/callback",
+  "http://localhost:5173/auth/reset-password",
+  "https://luiscarlosp.github.io/SortLeafFrontend/auth/callback",
+  "https://luiscarlosp.github.io/SortLeafFrontend/auth/reset-password",
+  "https://sortleaf.vercel.app/auth/callback",
+  "https://sortleaf.vercel.app/auth/reset-password",
+]
 
 [auth.email]
 enable_confirmations = true
