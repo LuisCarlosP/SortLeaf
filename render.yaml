@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: sortleaf-backend
+    runtime: docker
+    plan: free
+    region: oregon
+    branch: main
+    rootDir: SortLeafBackend
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /health/model
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: MODEL_PATH
+        value: /app/models/SortLeafV2.tflite
+      - key: REDIS_URL
+        value: memory://
+      - key: API_KEY
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_KEY
+        sync: false
+      - key: SUPABASE_SERVICE_KEY
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false

@@ -1,0 +1,3311 @@
+{
+ "copyright": "© OpenStreetMap contributors, ODbL 1.0",
+ "source": "https://download.geofabrik.de/central-america/costa-rica.html",
+ "license": "https://opendatacommons.org/licenses/odbl/1-0/",
+ "as_of": "2026-11-22T21:20:48Z",
+ "boundary": [
+  [
+   -86.82139,
+   11.10308
+  ],
+  [
+   -86.04218,
+   11.12047
+  ],
+  [
+   -85.70527,
+   11.07342
+  ],
+  [
+   -85.61062,
+   11.2237
+  ],
+  [
+   -85.55826,
+   11.21208
+  ],
+  [
+   -85.52101,
+   11.16897
+  ],
+  [
+   -85.42368,
+   11.13192
+  ],
+  [
+   -85.35639,
+   11.12771
+  ],
+  [
+   -85.23005,
+   11.06723
+  ],
+  [
+   -84.9099,
+   10.95097
+  ],
+  [
+   -84.68262,
+   11.0925
+  ],
+  [
+   -84.60777,
+   11.04297
+  ],
+  [
+   -84.57619,
+   11.05612
+  ],
+  [
+   -84.47971,
+   11.00186
+  ],
+  [
+   -84.43233,
+   10.96479
+  ],
+  [
+   -84.35586,
+   10.99921
+  ],
+  [
+   -84.13176,
+   10.797
+  ],
+  [
+   -84.01691,
+   10.79891
+  ],
+  [
+   -83.92609,
+   10.71683
+  ],
+  [
+   -83.79341,
+   10.77732
+  ],
+  [
+   -83.67188,
+   10.81038
+  ],
+  [
+   -83.70724,
+   10.94086
+  ],
+  [
+   -83.69522,
+   11.0295
+  ],
+  [
+   -83.60939,
+   11.14539
+  ],
+  [
+   -83.38623,
+   11.10699
+  ],
+  [
+   -82.34952,
+   9.772082
+  ],
+  [
+   -82.56191,
+   9.569267
+  ],
+  [
+   -82.53889,
+   9.544308
+  ],
+  [
+   -82.55796,
+   9.532363
+  ],
+  [
+   -82.59377,
+   9.554714
+  ],
+  [
+   -82.5983,
+   9.521567
+  ],
+  [
+   -82.60174,
+   9.505276
+  ],
+  [
+   -82.6141,
+   9.496472
+  ],
+  [
+   -82.63607,
+   9.490715
+  ],
+  [
+   -82.6716,
+   9.491731
+  ],
+  [
+   -82.68705,
+   9.504598
+  ],
+  [
+   -82.72894,
+   9.54901
+  ],
+  [
+   -82.77733,
+   9.580624
+  ],
+  [
+   -82.85339,
+   9.608028
+  ],
+  [
+   -82.86816,
+   9.562157
+  ],
+  [
+   -82.83606,
+   9.499181
+  ],
+  [
+   -82.93263,
+   9.470347
+  ],
+  [
+   -82.93116,
+   9.085316
+  ],
+  [
+   -82.88841,
+   9.094639
+  ],
+  [
+   -82.73632,
+   8.989532
+  ],
+  [
+   -82.71435,
+   8.951211
+  ],
+  [
+   -82.70473,
+   8.918652
+  ],
+  [
+   -82.74885,
+   8.891432
+  ],
+  [
+   -82.75941,
+   8.884224
+  ],
+  [
+   -82.78052,
+   8.873369
+  ],
+  [
+   -82.80705,
+   8.871758
+  ],
+  [
+   -82.81151,
+   8.863532
+  ],
+  [
+   -82.8261,
+   8.856578
+  ],
+  [
+   -82.85932,
+   8.848521
+  ],
+  [
+   -82.88137,
+   8.829438
+  ],
+  [
+   -82.8609,
+   8.820658
+  ],
+  [
+   -82.86113,
+   8.810903
+  ],
+  [
+   -82.8655,
+   8.804672
+  ],
+  [
+   -82.8873,
+   8.790676
+  ],
+  [
+   -82.88326,
+   8.772778
+  ],
+  [
+   -82.91073,
+   8.767434
+  ],
+  [
+   -82.9079,
+   8.757764
+  ],
+  [
+   -82.86541,
+   8.697784
+  ],
+  [
+   -82.86026,
+   8.68896
+  ],
+  [
+   -82.83245,
+   8.64399
+  ],
+  [
+   -82.82782,
+   8.635504
+  ],
+  [
+   -82.82593,
+   8.614628
+  ],
+  [
+   -82.82473,
+   8.598844
+  ],
+  [
+   -82.82129,
+   8.57508
+  ],
+  [
+   -82.81941,
+   8.566084
+  ],
+  [
+   -82.82971,
+   8.553077
+  ],
+  [
+   -82.83366,
+   8.551213
+  ],
+  [
+   -82.83735,
+   8.546092
+  ],
+  [
+   -82.83837,
+   8.541512
+  ],
+  [
+   -82.83843,
+   8.534219
+  ],
+  [
+   -82.83708,
+   8.529616
+  ],
+  [
+   -82.83277,
+   8.523833
+  ],
+  [
+   -82.83345,
+   8.509467
+  ],
+  [
+   -82.83039,
+   8.504631
+  ],
+  [
+   -82.83915,
+   8.47789
+  ],
+  [
+   -82.86738,
+   8.438668
+  ],
+  [
+   -82.91485,
+   8.427376
+  ],
+  [
+   -82.95322,
+   8.407253
+  ],
+  [
+   -82.966,
+   8.387554
+  ],
+  [
+   -82.9842,
+   8.369722
+  ],
+  [
+   -83.03913,
+   8.330913
+  ],
+  [
+   -82.93613,
+   8.275198
+  ],
+  [
+   -82.89957,
+   8.177679
+  ],
+  [
+   -82.8812,
+   8.106817
+  ],
+  [
+   -82.88876,
+   8.052601
+  ],
+  [
+   -82.94006,
+   7.929272
+  ],
+  [
+   -86.57229,
+   4.937746
+  ],
+  [
+   -87.82473,
+   4.937746
+  ],
+  [
+   -86.82139,
+   11.10308
+  ]
+ ],
+ "elements": [
+  {
+   "type": "node",
+   "id": 506050895,
+   "lat": 9.9954835,
+   "lon": -84.0274446,
+   "tags": {
+    "amenity": "recycling"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1134029209,
+   "lat": 10.2744066,
+   "lon": -83.7848828,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje la Esquina"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1832571774,
+   "lat": 9.9201906,
+   "lon": -84.1398882,
+   "tags": {
+    "addr:city": "Escazú",
+    "amenity": "recycling"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3929702680,
+   "lat": 10.3154951,
+   "lon": -84.8287631,
+   "tags": {
+    "amenity": "recycling"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3950763797,
+   "lat": 9.9347592,
+   "lon": -84.0532618,
+   "tags": {
+    "amenity": "recycling"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3952088277,
+   "lat": 10.0189841,
+   "lon": -84.2192961,
+   "tags": {
+    "amenity": "recycling",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4462830501,
+   "lat": 9.9162819,
+   "lon": -84.0337044,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje HB"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4462934692,
+   "lat": 9.9147996,
+   "lon": -84.0376647,
+   "tags": {
+    "amenity": "recycling",
+    "recycling:cans": "yes",
+    "recycling:glass_bottles": "yes",
+    "recycling:paper": "yes",
+    "recycling:plastic": "yes",
+    "recycling_type": "container"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4554163706,
+   "lat": 9.8484303,
+   "lon": -83.948242,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Division Polimeros S.A."
+   }
+  },
+  {
+   "type": "node",
+   "id": 4596864075,
+   "lat": 9.4654903,
+   "lon": -83.596715,
+   "tags": {
+    "amenity": "recycling"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4719794491,
+   "lat": 10.1857284,
+   "lon": -84.2360058,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Contenedores de reciclaje",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5497347711,
+   "lat": 9.8512503,
+   "lon": -83.7204675,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Centro de Acopio Tucurrique",
+    "recycling:cans": "yes",
+    "recycling:glass_bottles": "yes",
+    "recycling:paper": "yes",
+    "recycling:plastic": "yes",
+    "recycling:plastic_bottles": "yes",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5787802876,
+   "lat": 10.3611494,
+   "lon": -84.5099045,
+   "tags": {
+    "amenity": "recycling"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5787802877,
+   "lat": 10.3613312,
+   "lon": -84.5096971,
+   "tags": {
+    "amenity": "recycling"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6021119380,
+   "lat": 10.3382637,
+   "lon": -85.1499138,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Centro de Acopio UTN",
+    "recycling:batteries": "yes",
+    "recycling:books": "yes",
+    "recycling:cans": "no",
+    "recycling:cardboard": "yes",
+    "recycling:cartons": "yes",
+    "recycling:electrical_appliances": "yes",
+    "recycling:glass": "yes",
+    "recycling:glass_bottles": "yes",
+    "recycling:newspaper": "yes",
+    "recycling:paper": "yes",
+    "recycling:paper_packaging": "yes",
+    "recycling:plastic": "yes",
+    "recycling:plastic_packaging": "yes",
+    "recycling:scrap_metal": "yes",
+    "recycling:small_appliances": "yes",
+    "recycling:wood": "yes",
+    "recycling_type": "container"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6110480795,
+   "lat": 10.0622355,
+   "lon": -84.4216454,
+   "tags": {
+    "addr:city": "Esquipulas",
+    "amenity": "recycling",
+    "name": "Centro de Reciclaje de Palmares",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6437544695,
+   "lat": 10.0175247,
+   "lon": -84.2051233,
+   "tags": {
+    "amenity": "recycling",
+    "operator": "Comunidad Pionera",
+    "recycling:organic": "yes",
+    "recycling_type": "container"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6437568838,
+   "lat": 10.0160615,
+   "lon": -84.2053557,
+   "tags": {
+    "amenity": "recycling",
+    "operator": "Comunidad Pionera",
+    "recycling:organic": "yes",
+    "recycling_type": "container"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6440839060,
+   "lat": 10.0168217,
+   "lon": -84.2050132,
+   "tags": {
+    "amenity": "recycling",
+    "operator": "Comunidad Pionera",
+    "recycling:organic": "yes",
+    "recycling_type": "container"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6440851344,
+   "lat": 10.0140221,
+   "lon": -84.2035397,
+   "tags": {
+    "amenity": "recycling",
+    "operator": "Comunidad Pionera",
+    "recycling:organic": "yes",
+    "recycling_type": "container"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6440855648,
+   "lat": 10.0130529,
+   "lon": -84.2042737,
+   "tags": {
+    "amenity": "recycling",
+    "operator": "Comunidad Pionera",
+    "recycling:organic": "yes",
+    "recycling_type": "container"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6440861634,
+   "lat": 10.015158,
+   "lon": -84.2031656,
+   "tags": {
+    "amenity": "recycling",
+    "operator": "Comunidad Pionera",
+    "recycling:organic": "yes",
+    "recycling_type": "container"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6550685890,
+   "lat": 10.0857687,
+   "lon": -84.2849003,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Santa Gertrudis"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6680785634,
+   "lat": 9.9866291,
+   "lon": -84.7267155,
+   "tags": {
+    "addr:city": "Barranca",
+    "addr:street": "Avenida 11",
+    "amenity": "recycling",
+    "name": "Centro Acopio Fundación Oro Verde",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8079278904,
+   "lat": 9.9618021,
+   "lon": -84.3179258,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "phone": "+50683252970",
+    "recycling_type": "centre",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8095388597,
+   "lat": 10.3749901,
+   "lon": -84.3410513,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "phone": "+50683252970",
+    "recycling_type": "container",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8095388602,
+   "lat": 10.4716961,
+   "lon": -84.6431547,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro La Fortuna",
+    "operator": "Punto Seguro",
+    "phone": "8325 2970",
+    "recycling_type": "centre",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8095388603,
+   "lat": 10.636242,
+   "lon": -85.4320513,
+   "tags": {
+    "amenity": "recycling",
+    "operator": "Punto Seguro",
+    "recycling_type": "container"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8095388604,
+   "lat": 10.5501515,
+   "lon": -85.6967617,
+   "tags": {
+    "amenity": "recycling",
+    "operator": "Punto Seguro",
+    "recycling_type": "container"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8095388605,
+   "lat": 10.3004154,
+   "lon": -85.840922,
+   "tags": {
+    "amenity": "recycling",
+    "operator": "Punto Seguro",
+    "recycling_type": "container"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8097727855,
+   "lat": 10.4502264,
+   "lon": -84.2728092,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "phone": "+50683252970",
+    "recycling_type": "container",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8097727858,
+   "lat": 9.9938921,
+   "lon": -85.2522405,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "recycling_type": "container"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8097727859,
+   "lat": 10.0719142,
+   "lon": -84.3139671,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "phone": "+50683252970",
+    "recycling_type": "container",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8097727860,
+   "lat": 10.0727283,
+   "lon": -84.3133449,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "phone": "+50683252970",
+    "recycling_type": "container",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8097727862,
+   "lat": 10.0549297,
+   "lon": -84.4325329,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "phone": "+50683252970",
+    "recycling_type": "centre",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8097727863,
+   "lat": 8.6779425,
+   "lon": -83.0666528,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "recycling_type": "container"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8097727864,
+   "lat": 10.0883921,
+   "lon": -84.4702399,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "phone": "+50683252970",
+    "recycling_type": "container",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8097727866,
+   "lat": 9.9123774,
+   "lon": -84.5222291,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "phone": "+50683252970",
+    "recycling_type": "container",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8097727869,
+   "lat": 9.9980969,
+   "lon": -84.1189133,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "phone": "+50683252970",
+    "recycling_type": "container",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8097727870,
+   "lat": 9.9801166,
+   "lon": -84.1802648,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "phone": "+50683252970",
+    "recycling_type": "container",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8097727873,
+   "lat": 10.0019132,
+   "lon": -84.1591731,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro Flores",
+    "operator": "Punto Seguro",
+    "phone": "+50683252970",
+    "recycling_type": "centre",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8097727874,
+   "lat": 9.8653422,
+   "lon": -83.9197732,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "phone": "+50683252970",
+    "recycling_type": "container",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8097727875,
+   "lat": 9.9600097,
+   "lon": -84.5925355,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "phone": "+50683252970",
+    "recycling_type": "container",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8097727876,
+   "lat": 9.9135725,
+   "lon": -84.0282384,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "phone": "+50683252970",
+    "recycling_type": "container",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8097727877,
+   "lat": 10.0028498,
+   "lon": -84.1871779,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro Río Segundo",
+    "operator": "Punto Seguro",
+    "phone": "+50683252970",
+    "recycling_type": "centre",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8097727878,
+   "lat": 10.0186585,
+   "lon": -84.2180871,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "phone": "+50683252970",
+    "recycling_type": "centre",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8097727879,
+   "lat": 10.055904,
+   "lon": -84.4335518,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "phone": "+50683252970",
+    "recycling_type": "centre",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8097748724,
+   "lat": 8.6473608,
+   "lon": -82.9438332,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "recycling_type": "container"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8097748725,
+   "lat": 9.9911083,
+   "lon": -84.1704371,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "phone": "+50683252970",
+    "recycling_type": "container",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8097748726,
+   "lat": 9.8694009,
+   "lon": -83.9493382,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "phone": "+50683252970",
+    "recycling_type": "container",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8097748728,
+   "lat": 9.8789578,
+   "lon": -84.0801842,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "phone": "+50683252970",
+    "recycling_type": "container",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8097748729,
+   "lat": 9.9136257,
+   "lon": -83.6762387,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "phone": "+50683252970",
+    "recycling_type": "container",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8097748730,
+   "lat": 9.7992579,
+   "lon": -84.0849816,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "phone": "+50683252970",
+    "recycling_type": "container",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8097748731,
+   "lat": 9.9539551,
+   "lon": -84.1109118,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "phone": "+50683252970",
+    "recycling_type": "container",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8097748732,
+   "lat": 9.9204479,
+   "lon": -84.1402639,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "phone": "+50683252970",
+    "recycling_type": "container",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8108914126,
+   "lat": 10.3752318,
+   "lon": -84.3396467,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "phone": "+50683252970",
+    "recycling_type": "container",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8108914127,
+   "lat": 10.7071078,
+   "lon": -85.2258433,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "phone": "+50683252970",
+    "recycling_type": "container",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8108914130,
+   "lat": 11.070295,
+   "lon": -85.6305284,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "phone": "+50683252970",
+    "recycling_type": "container",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8108914131,
+   "lat": 9.9711267,
+   "lon": -84.1500627,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "phone": "+50683252970",
+    "recycling_type": "container",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8108914132,
+   "lat": 9.8671284,
+   "lon": -83.9324977,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Seguro",
+    "operator": "Punto Seguro",
+    "phone": "+50683252970",
+    "recycling_type": "container",
+    "website": "https://www.punto-seguro.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8385693496,
+   "lat": 9.5040713,
+   "lon": -82.6126448,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Asociación de Mujeres de Sixaola",
+    "phone": "+506 8574 1601",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8385883671,
+   "lat": 9.9939409,
+   "lon": -83.032929,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Coopemuelle",
+    "phone": "+506 8614 9766",
+    "recycling_type": "centre",
+    "website": "https://www.facebook.com/Coopemuelle/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9856541916,
+   "lat": 9.9144975,
+   "lon": -84.0637869,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Compostera Linda Vista",
+    "recycling:green_waste": "yes",
+    "recycling_type": "container"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9955430698,
+   "lat": 9.9512207,
+   "lon": -84.0290444,
+   "tags": {
+    "amenity": "recycling",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 10596572803,
+   "lat": 9.9686115,
+   "lon": -84.0899633,
+   "tags": {
+    "addr:city": "Santa Rosa",
+    "addr:street": "Calle Pedro León",
+    "amenity": "recycling",
+    "name": "Centro de Acopio Santo Domingo",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11398487397,
+   "lat": 9.3820987,
+   "lon": -84.1424136,
+   "tags": {
+    "amenity": "recycling",
+    "recycling:cans": "yes",
+    "recycling_type": "container"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11848096243,
+   "lat": 10.342762,
+   "lon": -85.8434056,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Centro de Acopio de Playa Grande",
+    "operator": "ADE Ambiente Playa Grande",
+    "recycling:aluminium_cans": "yes",
+    "recycling:cardboard": "yes",
+    "recycling:glass_bottles": "yes",
+    "recycling:plastic": "yes",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12573443385,
+   "lat": 9.9893035,
+   "lon": -84.1631908,
+   "tags": {
+    "amenity": "recycling",
+    "recycling_type": "container"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12623333070,
+   "lat": 9.9675123,
+   "lon": -84.6775513,
+   "tags": {
+    "addr:city": "Caldera",
+    "addr:street": "Calle Humo",
+    "amenity": "recycling",
+    "name": "Centro de Valorización Municipal",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12981517446,
+   "lat": 9.8834492,
+   "lon": -84.1874473,
+   "tags": {
+    "amenity": "recycling",
+    "recycling_type": "container"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13418660521,
+   "lat": 10.0968194,
+   "lon": -84.3016051,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Verde de Reciclaje",
+    "recycling_type": "container"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14070545302,
+   "lat": 9.9921298,
+   "lon": -84.118019,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Rabsa",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230327665,
+   "lat": 10.3540561,
+   "lon": -84.2736915,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Venecia",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230327671,
+   "lat": 10.3749369,
+   "lon": -84.3393255,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Aguas Zarcas",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230327683,
+   "lat": 10.4713021,
+   "lon": -84.643251,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos ICE La Fortuna",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230327688,
+   "lat": 10.4719246,
+   "lon": -84.6442032,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo La Fortuna",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230327697,
+   "lat": 10.5291176,
+   "lon": -84.4789871,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Cutris",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339701,
+   "lat": 10.6233236,
+   "lon": -84.5267743,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodoméstico Pocosol",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339702,
+   "lat": 10.3596476,
+   "lon": -84.4781964,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Florencia",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339703,
+   "lat": 10.342318,
+   "lon": -84.4317328,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Claro Quesada",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339715,
+   "lat": 10.3424885,
+   "lon": -84.4318858,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos ICE Quesada",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339716,
+   "lat": 10.004163,
+   "lon": -84.2111883,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos Claro Montserrat",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339717,
+   "lat": 10.0037951,
+   "lon": -84.2122318,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Montserrat",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339718,
+   "lat": 10.003562,
+   "lon": -84.2122375,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos ICE Montserrat",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339719,
+   "lat": 10.0126067,
+   "lon": -84.2075577,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos La Tropicana",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339720,
+   "lat": 10.0143732,
+   "lon": -84.2253297,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos La Trinidad",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339721,
+   "lat": 10.0044266,
+   "lon": -84.2516565,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos El Coyol",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339725,
+   "lat": 10.0140286,
+   "lon": -84.2427676,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos San José de Alajuela",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339728,
+   "lat": 9.9622239,
+   "lon": -84.2552585,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos La Guácima",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339729,
+   "lat": 10.0139484,
+   "lon": -84.2203519,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Cristo Rey",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339730,
+   "lat": 10.0157202,
+   "lon": -84.2162005,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos La Curacao Alajuela",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339731,
+   "lat": 10.0159886,
+   "lon": -84.2161974,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Mercado",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339732,
+   "lat": 10.0170935,
+   "lon": -84.2157833,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Central Alajuela",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339733,
+   "lat": 9.9524522,
+   "lon": -84.2317684,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Campo Real",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339734,
+   "lat": 9.9695702,
+   "lon": -84.2200211,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo San Rafael",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339735,
+   "lat": 9.9707518,
+   "lon": -84.2174763,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Recicladora San Rafael",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339742,
+   "lat": 9.9620714,
+   "lon": -84.1951963,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos Pozos Norte",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339743,
+   "lat": 9.951246,
+   "lon": -84.2021911,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Valle del Sol",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339744,
+   "lat": 9.9403968,
+   "lon": -84.1843095,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos Concepción de Santa Ana",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339745,
+   "lat": 9.9315081,
+   "lon": -84.1814918,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos ICE Santa Ana",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339746,
+   "lat": 9.931872,
+   "lon": -84.1813999,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Santa Ana",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339747,
+   "lat": 9.9429255,
+   "lon": -84.0320928,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Centro de Acopio",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339748,
+   "lat": 9.9429428,
+   "lon": -84.0319049,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Sabanilla",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339749,
+   "lat": 10.0542694,
+   "lon": -84.434958,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos ICE Palmares",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339750,
+   "lat": 10.0564317,
+   "lon": -84.4334124,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Municipalidad de Palmares",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339751,
+   "lat": 10.0547588,
+   "lon": -84.433519,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Palmares",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339752,
+   "lat": 10.0929882,
+   "lon": -84.7311163,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos ICE Montes de Oro",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339753,
+   "lat": 10.0896923,
+   "lon": -84.7291656,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Montes de Oro",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339754,
+   "lat": 10.2809902,
+   "lon": -84.9584252,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Abangares",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339755,
+   "lat": 10.2822168,
+   "lon": -84.958646,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos ICE Abangares",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339756,
+   "lat": 10.3158733,
+   "lon": -84.825295,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Monteverde",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339779,
+   "lat": 10.0080783,
+   "lon": -84.1517666,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos Flores",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14230339780,
+   "lat": 10.0358717,
+   "lon": -84.1590829,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Santa Bárbara",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232454223,
+   "lat": 9.9619435,
+   "lon": -84.0794963,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos Tienda N",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232506295,
+   "lat": 11.033107,
+   "lon": -84.7136823,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Los Chiles",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232506300,
+   "lat": 11.0325129,
+   "lon": -84.7124897,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos ICE Los Chiles",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232510101,
+   "lat": 11.0738611,
+   "lon": -84.6960714,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos ICE Tablillas",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232638599,
+   "lat": 10.4540578,
+   "lon": -84.2726512,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Pital",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232638600,
+   "lat": 10.8989395,
+   "lon": -85.0146558,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Municipalidad de Upala",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232682507,
+   "lat": 10.8974198,
+   "lon": -85.0157106,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Upala",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232682545,
+   "lat": 10.9013358,
+   "lon": -85.0154148,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos ICE Upala",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232682556,
+   "lat": 10.6726286,
+   "lon": -84.8222806,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Guatuso",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232682557,
+   "lat": 10.6720373,
+   "lon": -84.8196326,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos ICE Guatuso",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232682586,
+   "lat": 10.5450664,
+   "lon": -84.8980851,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos Arenal",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232787553,
+   "lat": 9.9806391,
+   "lon": -84.3792033,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos ICE Atenas",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232787554,
+   "lat": 9.9785466,
+   "lon": -84.3808966,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Atenas",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232915860,
+   "lat": 9.9613364,
+   "lon": -84.3179997,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Turrúcares",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232915862,
+   "lat": 9.9155402,
+   "lon": -84.2405548,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos  Mora",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232915863,
+   "lat": 9.8474283,
+   "lon": -84.3148375,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Puriscal",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232915864,
+   "lat": 9.8475287,
+   "lon": -84.3147181,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos ICE Puriscal",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232915865,
+   "lat": 9.6463929,
+   "lon": -84.624576,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Parque Ambiental",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232915866,
+   "lat": 9.6113009,
+   "lon": -84.6249959,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Garabito",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232915867,
+   "lat": 9.6134714,
+   "lon": -84.6277216,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos ICE Garabito",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232915869,
+   "lat": 9.520877,
+   "lon": -84.3304659,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos ICE Parrita",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232915874,
+   "lat": 9.5198205,
+   "lon": -84.3287487,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Parrita",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232915875,
+   "lat": 9.8862797,
+   "lon": -84.5294155,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Centro de Acopio Orotina",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232915888,
+   "lat": 9.911789,
+   "lon": -84.524247,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Central Orotina",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232915897,
+   "lat": 9.9125158,
+   "lon": -84.5225876,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Orotina 1",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232919615,
+   "lat": 9.910751,
+   "lon": -84.5239066,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos ICE Orotina",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232919617,
+   "lat": 9.9925182,
+   "lon": -84.663985,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos ICE Esparza",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232919619,
+   "lat": 9.9912111,
+   "lon": -84.6664769,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Esparza",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232919624,
+   "lat": 9.431943,
+   "lon": -84.1620855,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos La Curacao Quepos",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232919630,
+   "lat": 9.43185,
+   "lon": -84.1640198,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos ICE Quepos",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232919631,
+   "lat": 9.4305674,
+   "lon": -84.1623477,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Quepos",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232939924,
+   "lat": 9.1667588,
+   "lon": -83.7368383,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos ICE Osa",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232939925,
+   "lat": 9.1722973,
+   "lon": -83.7394268,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Osa",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232939927,
+   "lat": 8.9621113,
+   "lon": -83.458799,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Palmar",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232939938,
+   "lat": 9.171836,
+   "lon": -83.3366418,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos ICE Buenos Aires",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232939949,
+   "lat": 9.1729426,
+   "lon": -83.3368589,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Buenos Aires",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232939957,
+   "lat": 8.8190951,
+   "lon": -82.9118704,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Sabalito",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232939978,
+   "lat": 8.821813,
+   "lon": -82.9684305,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos ICE Coto Brus",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232939981,
+   "lat": 8.8212943,
+   "lon": -82.9719234,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo San Vito",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232983758,
+   "lat": 8.648833,
+   "lon": -82.9423265,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos ICE Corredores",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14232983763,
+   "lat": 8.4328315,
+   "lon": -82.9579405,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Laurel",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233017605,
+   "lat": 8.6454577,
+   "lon": -82.9436052,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Neily",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233017608,
+   "lat": 9.3416783,
+   "lon": -83.6733994,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Daniel Flores",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233017609,
+   "lat": 9.2749837,
+   "lon": -83.5816551,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Cajón",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233017610,
+   "lat": 9.2792086,
+   "lon": -83.5888614,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos ICE Cajón",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233017611,
+   "lat": 9.3751087,
+   "lon": -83.7027168,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo San Isidro de El General 2",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233017612,
+   "lat": 9.3745532,
+   "lon": -83.7026742,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo San Isidro de El General 1",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233017614,
+   "lat": 9.3747461,
+   "lon": -83.7034295,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos La Curacao Pérez Zeledón",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233017615,
+   "lat": 9.3610112,
+   "lon": -83.6802622,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos ICE Daniel Flores",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233017616,
+   "lat": 9.3718561,
+   "lon": -83.705526,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos Claro Pérez Zeledón",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233017617,
+   "lat": 9.3736339,
+   "lon": -83.7045155,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo San Isidro de El General 3",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233017619,
+   "lat": 8.6454753,
+   "lon": -83.172658,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos ICE Golfito",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233017620,
+   "lat": 8.647236,
+   "lon": -83.1779434,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Golfito",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233017866,
+   "lat": 8.5367682,
+   "lon": -83.3051819,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Puerto Jiménez",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233017869,
+   "lat": 10.0238969,
+   "lon": -84.1133156,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos UNA Barva",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233017874,
+   "lat": 10.020101,
+   "lon": -84.1243748,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Barva",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233017875,
+   "lat": 9.9788346,
+   "lon": -84.185263,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Belén",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233017876,
+   "lat": 9.9802176,
+   "lon": -84.1879676,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos ICE Belén",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233017877,
+   "lat": 9.9931404,
+   "lon": -84.1786969,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos La Ribera",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233017880,
+   "lat": 9.9812494,
+   "lon": -84.1634758,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos La Asunción",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233017881,
+   "lat": 9.9759211,
+   "lon": -84.1383626,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Ulloa",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233017882,
+   "lat": 9.9939849,
+   "lon": -84.1317844,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Oxígeno",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233017883,
+   "lat": 9.993575,
+   "lon": -84.1316663,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos ICE Oxígeno",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233017884,
+   "lat": 9.9937754,
+   "lon": -84.13203,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Claro Oxígeno",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233017886,
+   "lat": 10.003575,
+   "lon": -84.2117891,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Universidad San Marcos Alajuela",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233053405,
+   "lat": 9.952994,
+   "lon": -84.1654572,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Guachipelín",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233071476,
+   "lat": 10.0162769,
+   "lon": -84.0567079,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos San Isidro",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233071478,
+   "lat": 10.4517701,
+   "lon": -84.0134993,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos ICE Puerto Viejo",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233071479,
+   "lat": 10.4545491,
+   "lon": -84.0087453,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrdomésticos Gollo Puerto Viejo",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233071480,
+   "lat": 10.3191394,
+   "lon": -83.8884068,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos ICE Horquetas",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14233071481,
+   "lat": 10.320627,
+   "lon": -83.885503,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos Gollo Horquetas",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14246919477,
+   "lat": 9.8201687,
+   "lon": -84.9347282,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Coopeguanacaste Paquera",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14246919478,
+   "lat": 9.8201356,
+   "lon": -84.9333625,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Paquera",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14246919482,
+   "lat": 9.9593135,
+   "lon": -85.1146158,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Coopeguanacaste Jicaral",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14246919486,
+   "lat": 9.9584576,
+   "lon": -85.1152756,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Jicaral",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14246981733,
+   "lat": 9.9954637,
+   "lon": -85.2535553,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Coopeguanacaste Nandayure",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14246981734,
+   "lat": 9.9947404,
+   "lon": -85.2510046,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos ICE Nandayure",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14246981735,
+   "lat": 9.9934163,
+   "lon": -85.2522934,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Nandayure",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14247057897,
+   "lat": 10.0598874,
+   "lon": -85.4191314,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Coopeguanacaste Hojancha",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14247186202,
+   "lat": 10.0581221,
+   "lon": -85.4190393,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Hojancha",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14247266185,
+   "lat": 9.8830524,
+   "lon": -85.5257714,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos Sámara",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14247266186,
+   "lat": 9.9721303,
+   "lon": -85.643975,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Nosara",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14247266190,
+   "lat": 10.2969115,
+   "lon": -85.8408972,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos Vindi Santa Cruz",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14247266191,
+   "lat": 10.3034401,
+   "lon": -85.8032933,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Tamarindo",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14247266192,
+   "lat": 10.3680914,
+   "lon": -85.774171,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos ICE Huacas",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14247266193,
+   "lat": 10.3676912,
+   "lon": -85.77661,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Coopeguanacaste Huacas",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14247266198,
+   "lat": 10.370093,
+   "lon": -85.7797937,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Huacas",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14247266199,
+   "lat": 10.5143099,
+   "lon": -85.649055,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Coopeguanacaste Sardinal",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14247270614,
+   "lat": 10.5498294,
+   "lon": -85.6964717,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Coopeguanacaste El Coco",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14247270622,
+   "lat": 10.5455949,
+   "lon": -85.6940688,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo El Coco",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14247270628,
+   "lat": 10.4456439,
+   "lon": -85.5518369,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Filadelfia",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14247270629,
+   "lat": 10.4463451,
+   "lon": -85.5536732,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Coopeguanacaste Filadelfia",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14247270634,
+   "lat": 10.4459863,
+   "lon": -85.5518485,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos ICE Filadelfia",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14247270635,
+   "lat": 10.2700383,
+   "lon": -85.5730627,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Coopeguanacaste Oficinas Centrales",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14247270637,
+   "lat": 10.2611283,
+   "lon": -85.5822858,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Coopeguanacaste Santa Cruz Centro",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14247270643,
+   "lat": 10.2604329,
+   "lon": -85.5857659,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos Claro Santa Cruz",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14247270644,
+   "lat": 10.2613909,
+   "lon": -85.5858536,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Santa Cruz 2",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14247270645,
+   "lat": 10.2660897,
+   "lon": -85.5865093,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo Santa Cruz 1",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14247270648,
+   "lat": 11.0717797,
+   "lon": -85.6330841,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrónicos ICE La Cruz",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14247270654,
+   "lat": 11.0729108,
+   "lon": -85.6345545,
+   "tags": {
+    "amenity": "recycling",
+    "name": "Reciclaje de electrodomésticos Gollo La Cruz",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 236929425,
+   "center": {
+    "lat": 9.941159,
+    "lon": -84.0368064
+   },
+   "tags": {
+    "amenity": "recycling",
+    "name": "Eco Reciclajes",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 258169764,
+   "center": {
+    "lat": 9.8788282,
+    "lon": -84.0799643
+   },
+   "tags": {
+    "addr:city": "San Juan de Dios",
+    "amenity": "recycling",
+    "name": "Preserve Planet",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 375961714,
+   "center": {
+    "lat": 9.6469371,
+    "lon": -84.623469
+   },
+   "tags": {
+    "amenity": "recycling",
+    "name": "Parque Ambiental de Residuos Sólidos",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 395622089,
+   "center": {
+    "lat": 9.3567984,
+    "lon": -83.6913527
+   },
+   "tags": {
+    "amenity": "recycling",
+    "recycling:cans": "yes",
+    "recycling:glass": "yes",
+    "recycling:glass_bottles": "yes",
+    "recycling:paper": "yes",
+    "recycling:plastic": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 402230404,
+   "center": {
+    "lat": 10.3322877,
+    "lon": -83.9465258
+   },
+   "tags": {
+    "amenity": "recycling",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 574523474,
+   "center": {
+    "lat": 10.1368046,
+    "lon": -85.4478934
+   },
+   "tags": {
+    "addr:city": "Nicoya",
+    "amenity": "recycling",
+    "name": "Centro de Recuperación de Residuos Valorizables de la Municipalidad de Nicoya",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 666186501,
+   "center": {
+    "lat": 9.9795704,
+    "lon": -84.3867063
+   },
+   "tags": {
+    "addr:city": "Atenas",
+    "addr:street": "Calle 14",
+    "amenity": "recycling",
+    "name": "Centro de Acopio Municipal",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 666997024,
+   "center": {
+    "lat": 10.0297488,
+    "lon": -84.124911
+   },
+   "tags": {
+    "addr:city": "San Pablo",
+    "amenity": "recycling",
+    "name": "Centro de Acopio Barva",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 671166674,
+   "center": {
+    "lat": 10.0197017,
+    "lon": -84.3433806
+   },
+   "tags": {
+    "amenity": "recycling",
+    "name": "Punto Verde",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 682768003,
+   "center": {
+    "lat": 9.6463168,
+    "lon": -84.62456
+   },
+   "tags": {
+    "amenity": "recycling",
+    "name": "Centro de Valorización",
+    "operator": "Municipalidad de Garabito",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 920595274,
+   "center": {
+    "lat": 10.4445384,
+    "lon": -85.5565614
+   },
+   "tags": {
+    "addr:city": "Filadelfia",
+    "addr:street": "Calle Matadero",
+    "amenity": "recycling",
+    "name": "Centro de Reciclaje COMUREC",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 953200005,
+   "center": {
+    "lat": 9.8895077,
+    "lon": -84.0376679
+   },
+   "tags": {
+    "amenity": "recycling",
+    "name": "Centro de Acopio",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 953200011,
+   "center": {
+    "lat": 9.8844479,
+    "lon": -84.03471
+   },
+   "tags": {
+    "addr:city": "Patarrá",
+    "amenity": "recycling",
+    "name": "Centro de Acopio",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1043305135,
+   "center": {
+    "lat": 8.952327,
+    "lon": -83.4513415
+   },
+   "tags": {
+    "amenity": "recycling",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1095516705,
+   "center": {
+    "lat": 9.9888621,
+    "lon": -84.1294669
+   },
+   "tags": {
+    "amenity": "recycling",
+    "recycling_type": "container"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1095516706,
+   "center": {
+    "lat": 9.9888619,
+    "lon": -84.1294592
+   },
+   "tags": {
+    "amenity": "recycling",
+    "recycling_type": "container"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1128279355,
+   "center": {
+    "lat": 9.9266171,
+    "lon": -84.0695997
+   },
+   "tags": {
+    "addr:city": "San José",
+    "addr:street": "Calle 21 Dr. Ricardo Moreno Cañas",
+    "amenity": "recycling",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1149784148,
+   "center": {
+    "lat": 9.5291652,
+    "lon": -84.3466439
+   },
+   "tags": {
+    "addr:city": "Parrita",
+    "addr:postcode": "60901",
+    "addr:street": "Vía 609",
+    "amenity": "recycling",
+    "name": "Coopeagropal - Centro de Acopio Parrita",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1152981338,
+   "center": {
+    "lat": 9.2555974,
+    "lon": -83.6295751
+   },
+   "tags": {
+    "addr:city": "Daniel Flores",
+    "addr:street": "Vía 244",
+    "amenity": "recycling",
+    "name": "Centro Acopio Municipal",
+    "operator": "Municipalidad de Pérez Zeledón",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1154793528,
+   "center": {
+    "lat": 9.9596037,
+    "lon": -84.1111179
+   },
+   "tags": {
+    "addr:city": "San José",
+    "addr:street": "Avenida 55",
+    "amenity": "recycling",
+    "name": "Centro de Acopio El Virilla",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1188102350,
+   "center": {
+    "lat": 10.0099882,
+    "lon": -84.1033908
+   },
+   "tags": {
+    "addr:city": "San Rafael",
+    "addr:street": "Avenida 21A",
+    "amenity": "recycling",
+    "name": "Centro de Acopio Fernando Matamoros",
+    "operator": "Municipalidad de San Rafael",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1212139022,
+   "center": {
+    "lat": 9.2092769,
+    "lon": -83.8040645
+   },
+   "tags": {
+    "amenity": "recycling",
+    "recycling:beverage_cartons": "yes",
+    "recycling:cans": "yes",
+    "recycling:glass": "no",
+    "recycling:glass_bottles": "yes",
+    "recycling:plastic_bottles": "yes",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1219617741,
+   "center": {
+    "lat": 9.9259398,
+    "lon": -84.074258
+   },
+   "tags": {
+    "addr:city": "San José",
+    "addr:housenumber": "0007",
+    "addr:street": "Avenida 18 Cleto González Víquez",
+    "amenity": "recycling",
+    "name": "Desechos Electrónicos de Costa Rica",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1300291223,
+   "center": {
+    "lat": 9.9373256,
+    "lon": -84.0468389
+   },
+   "tags": {
+    "amenity": "recycling",
+    "name": "Recicladora Capri",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1337807508,
+   "center": {
+    "lat": 9.8861948,
+    "lon": -84.5295234
+   },
+   "tags": {
+    "addr:city": "Orotina",
+    "addr:street": "Vía 137",
+    "amenity": "recycling",
+    "name": "Centro de Reciclaje Municipal de Orotina",
+    "operator": "Municipalidad de Orotina",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1370684178,
+   "center": {
+    "lat": 9.918928,
+    "lon": -84.1046281
+   },
+   "tags": {
+    "addr:city": "San José",
+    "addr:housenumber": "0072",
+    "addr:postcode": "10110",
+    "addr:street": "Avenida 36",
+    "amenity": "recycling",
+    "name": "Centro de Reciclaje Alianza",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1433201315,
+   "center": {
+    "lat": 9.6710528,
+    "lon": -84.0276431
+   },
+   "tags": {
+    "amenity": "recycling",
+    "name": "Centro de acopio Municipalidad de Tarrazú",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1446807130,
+   "center": {
+    "lat": 9.6303726,
+    "lon": -82.8602728
+   },
+   "tags": {
+    "addr:city": "Bratsi",
+    "addr:postcode": "70401",
+    "addr:street": "Calle La Planta",
+    "amenity": "recycling",
+    "name": "Centro de Acopio Volio",
+    "operator": "Asociación de Desarrollo Integral de Bribri",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1448059866,
+   "center": {
+    "lat": 10.07609,
+    "lon": -83.2944045
+   },
+   "tags": {
+    "addr:city": "Matina",
+    "amenity": "recycling",
+    "name": "Centro de Acopio Municipal",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1563429187,
+   "center": {
+    "lat": 9.9707541,
+    "lon": -84.2174332
+   },
+   "tags": {
+    "amenity": "recycling",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1576276068,
+   "center": {
+    "lat": 10.0756238,
+    "lon": -84.4815859
+   },
+   "tags": {
+    "amenity": "recycling",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1576276069,
+   "center": {
+    "lat": 10.0754892,
+    "lon": -84.4809584
+   },
+   "tags": {
+    "amenity": "recycling",
+    "recycling_type": "centre"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1576276076,
+   "center": {
+    "lat": 10.0757039,
+    "lon": -84.4757204
+   },
+   "tags": {
+    "amenity": "recycling",
+    "recycling_type": "centre"
+   }
+  }
+ ]
+}

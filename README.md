@@ -1,6 +1,6 @@
-# TrashIA - AI Trash Classifier
+# SortLeaf - AI Trash Classifier
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/LuisCarlosP/TrashIA)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/LuisCarlosP/SortLeaf)
 
 REST API built with FastAPI and TensorFlow to classify types of trash, determine recyclability, and provide AI-powered chat assistance. The backend follows SOLID principles with dependency injection and protocol-based abstractions.
 
@@ -28,7 +28,7 @@ REST API built with FastAPI and TensorFlow to classify types of trash, determine
 - Python 3.11.9
 - pip
 - Groq API key (optional, for chat functionality)
-- Redis (required for rate limiting)
+- Redis is optional for shared rate limits. The single-worker Free deployment uses in-memory counters.
 - Supabase account (required for authentication)
 
 
@@ -36,8 +36,8 @@ REST API built with FastAPI and TensorFlow to classify types of trash, determine
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/LuisCarlosP/TrashIA.git
-cd TrashIA
+git clone https://github.com/LuisCarlosP/SortLeaf.git
+cd SortLeaf
 ```
 
 ### 2. Create virtual environment
@@ -56,80 +56,13 @@ source venv/bin/activate
 
 ### 4. Install dependencies
 ```bash
-cd TrashIABackend
+cd SortLeafBackend
 pip install -r requirements.txt
 ```
 
 ### 5. Configure environment variables
-Create a `.env` file in `TrashIABackend/`:
-```env
-# Server Configuration
-HOST=0.0.0.0
-PORT=8000
-ENVIRONMENT=development
 
-# Model Configuration
-MODEL_PATH=models/TrashIAv2.h5
-
-# Security
-API_KEY=your_secret_api_key
-REDIS_URL=redis://localhost:6379/0
-
-# Supabase Configuration
-SUPABASE_URL=https://your-project.supabase.co
-SUPABASE_KEY=your_supabase_anon_key
-SUPABASE_SERVICE_KEY=your_supabase_service_role_key
-
-# Frontend URL (for email redirects)
-FRONTEND_URL=http://localhost:5173
-
-# CORS
-ALLOWED_ORIGINS=http://localhost:5173,https://luiscarlosp.github.io
-
-# External API Keys
-GROQ_API_KEY=your_groq_api_key
-GROQ_MODEL=llama-3.3-70b-versatile
-
-# File Upload Limits
-MAX_FILE_SIZE_MB=5
-ALLOWED_MIME_TYPES=image/jpeg,image/png,image/jpg
-
-# Rate Limiting (requests per minute)
-RATE_LIMIT_PREDICT=10/minute
-RATE_LIMIT_CHAT_SESSION=20/minute
-RATE_LIMIT_CHAT_MESSAGE=30/minute
-RATE_LIMIT_CHAT_HISTORY=20/minute
-RATE_LIMIT_CHAT_DELETE=10/minute
-RATE_LIMIT_CHAT_UPDATE=20/minute
-RATE_LIMIT_LOCATION=30/minute
-RATE_LIMIT_BARCODE=30/minute
-
-# Circuit Breaker
-CIRCUIT_BREAKER_FAIL_MAX=5
-CIRCUIT_BREAKER_RESET_TIMEOUT=60
-
-# HTTP Timeouts (seconds)
-HTTP_TIMEOUT_LOCATION=30.0
-HTTP_TIMEOUT_BARCODE=10.0
-HTTP_TIMEOUT_HEALTH_CHECK=5.0
-OVERPASS_QUERY_TIMEOUT=25
-
-# Location Service
-LOCATION_CACHE_TTL_MINUTES=30
-LOCATION_DEFAULT_RADIUS=2000
-LOCATION_MIN_RADIUS=100
-LOCATION_MAX_RADIUS=50000
-
-# Barcode Service
-BARCODE_MIN_LENGTH=8
-
-# External API URLs
-OPEN_FOOD_FACTS_URL=https://world.openfoodfacts.org/api/v2/product
-UPCITEMDB_URL=https://api.upcitemdb.com/prod/trial/lookup
-OVERPASS_SERVERS=https://overpass-api.de/api/interpreter,https://overpass.kumi.systems/api/interpreter,https://maps.mail.ru/osm/tools/overpass/api/interpreter
-```
-
-> **Note:** All environment variables are required. The application will fail to start if any are missing.
+Copy `.env.example` to `.env` at the root of `SortLeaf` and fill in the credentials. FastAPI reads this file regardless of its working directory. In Render, set the backend variables in the service environment. Vite reads its public settings from the separate `SortLeafFrontend` directory.
 
 ### 6. Run the application
 ```bash
@@ -138,12 +71,20 @@ python run.py
 
 The API will be available at: `http://localhost:8000`
 
+## Render Free
+
+The root `render.yaml` configures a single free Docker web service. To update an existing service, select the `main` branch of this repository, set its root directory to `SortLeafBackend`, and use `./Dockerfile` with build context `.`. Set the health check to `/health/model`. The image listens on Render's assigned `PORT` and runs the CPU classifier from `/app/models/SortLeafV2.tflite`.
+
+Set `API_KEY`, `GROQ_API_KEY`, `SUPABASE_URL`, `SUPABASE_KEY` (anon key), and `SUPABASE_SERVICE_KEY` (server role) in Render. Use the same production `API_KEY` in Vercel and set its `BACKEND_URL` to the Render service's HTTPS origin. For an existing service, update earlier overrides of `MODEL_PATH`, `ENVIRONMENT` and `REDIS_URL` to the values in the Blueprint. The image requires a single worker for the in-memory rate limits.
+
+Guest chat needs anonymous sign-in enabled in Supabase and the SQL migrations in `supabase/migrations`. When the frontend domain is available, set `FRONTEND_URL` on Render and the Site URL in Supabase. Allow its exact `/auth/callback` and `/auth/reset-password` URLs in Supabase Auth. Until an HTTPS frontend is configured, requests that send registration or recovery emails return 503. The remaining API endpoints can start independently.
+
 ## Running Tests
 
 To run the test suite:
 
 ```bash
-cd TrashIABackend
+cd SortLeafBackend
 pytest tests/ -v
 ```
 
@@ -270,7 +211,8 @@ User authentication endpoints use Supabase Auth with JWT tokens:
 | POST | `/auth/forgot-password` | Request password reset email |
 | POST | `/auth/reset-password` | Reset password with token |
 | PATCH | `/auth/profile` | Update user profile |
-| POST | `/auth/profile/picture` | Upload profile picture |
+| POST | `/auth/profile/picture` | Upload your private profile picture |
+| GET | `/auth/profile/picture` | Download your own avatar with your account token |
 | POST | `/auth/change-password` | Change password |
 | GET | `/auth/validate` | Validate access token |
 
@@ -283,29 +225,15 @@ User authentication endpoints use Supabase Auth with JWT tokens:
 - At least one lowercase letter
 - At least one digit
 
-**Register Response:**
-```json
-{
-  "user": {
-    "id": "uuid",
-    "email": "user@example.com",
-    "email_verified": false,
-    "profile": {
-      "name": "John",
-      "last_name": "Doe",
-      "telephone": "12345678",
-      "profile_picture": null
-    }
-  },
-  "tokens": {
-    "access_token": "jwt_token",
-    "refresh_token": "refresh_token",
-    "expires_in": 3600
-  },
-  "message": "Registration successful"
-}
-```
+**Registration and confirmation email**
 
+Signup returns HTTP 202 with `{"success":true,"message":"verification_pending"}`. Open the emailed link to confirm your address. Sign in with the email and password to obtain an account session. Guests can still use the assistant.
+
+Supabase Auth delivers the link through Resend SMTP. Set `RESEND_API_KEY` and `RESEND_FROM_EMAIL` in `SortLeaf/.env`. Use a full sender address belonging to your verified Resend domain. Disable link tracking for authentication emails.
+
+For hosted Supabase, configure **Authentication → Email → SMTP Settings** with the sender address, sender name **SortLeaf**, host `smtp.resend.com`, port `465`, username `resend` and the Resend API key as the SMTP password. Enable **Confirm email** for the email provider. Under **Email Templates → Confirm signup**, use the subject and HTML in `supabase/config.toml` and `supabase/templates/confirmation.html`. Allow the exact `FRONTEND_URL/auth/callback` URL under **URL Configuration**. The local web app uses `http://localhost:5173/auth/callback`. Configure the public frontend address when deploying.
+
+For a local Supabase stack, start Docker Desktop and run `npx supabase start` from `SortLeaf`. Restart an existing stack to pick up SMTP changes. SQL migrations and Auth settings are managed separately.
 
 ## Classification Categories
 
@@ -334,12 +262,11 @@ The backend follows SOLID principles:
 ## Project Structure
 
 ```
-TrashIABackend/
+SortLeafBackend/
 ├── app.py                 # Main FastAPI application
 ├── run.py                 # Startup script
 ├── requirements.txt       # Python dependencies
 ├── Dockerfile             # Docker configuration
-├── render.yaml            # Render deployment configuration
 ├── config/
 │   ├── settings.py        # Configuration and environment variables
 │   ├── chat_prompts.json  # AI chat prompts
@@ -370,7 +297,7 @@ TrashIABackend/
 ├── models/
 │   ├── location_models.py # Location data models
 │   ├── user_models.py     # User and auth models
-│   └── TrashIAv2.h5       # Main classification model
+│   └── SortLeafV2.h5       # Main classification model
 ├── repositories/
 │   └── user_repository.py # User data repository
 ├── routes/

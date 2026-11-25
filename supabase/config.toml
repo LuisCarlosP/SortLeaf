@@ -1,0 +1,23 @@
+project_id = "sortleaf"
+
+[auth]
+enabled = true
+enable_anonymous_sign_ins = true
+site_url = "http://localhost:5173"
+additional_redirect_urls = ["http://localhost:5173/auth/callback", "http://localhost:5173/auth/reset-password", "https://luiscarlosp.github.io/SortLeafFrontend/auth/callback", "https://luiscarlosp.github.io/SortLeafFrontend/auth/reset-password"]
+
+[auth.email]
+enable_confirmations = true
+
+[auth.email.smtp]
+enabled = true
+host = "smtp.resend.com"
+port = 465
+user = "resend"
+pass = "env(RESEND_API_KEY)"
+admin_email = "env(RESEND_FROM_EMAIL)"
+sender_name = "SortLeaf"
+
+[auth.email.template.confirmation]
+subject = "Confirma tu correo en SortLeaf"
+content_path = "./supabase/templates/confirmation.html"
