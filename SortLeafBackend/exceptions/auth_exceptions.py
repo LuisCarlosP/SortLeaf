@@ -1,10 +1,10 @@
 """
 Authentication exceptions.
 """
-from exceptions.base_exception import TrashIAException
+from exceptions.base_exception import SortLeafException
 
 
-class AuthenticationError(TrashIAException):
+class AuthenticationError(SortLeafException):
     """Raised when authentication fails."""
     
     def __init__(self, message: str = "Invalid credentials"):
@@ -15,7 +15,7 @@ class AuthenticationError(TrashIAException):
         )
 
 
-class UserAlreadyExistsError(TrashIAException):
+class UserAlreadyExistsError(SortLeafException):
     """Raised when trying to register with an existing email."""
     
     def __init__(self, email: str):
@@ -26,7 +26,7 @@ class UserAlreadyExistsError(TrashIAException):
         )
 
 
-class UserNotFoundError(TrashIAException):
+class UserNotFoundError(SortLeafException):
     """Raised when user is not found."""
     
     def __init__(self, identifier: str = ""):
@@ -38,7 +38,7 @@ class UserNotFoundError(TrashIAException):
         )
 
 
-class InvalidTokenError(TrashIAException):
+class InvalidTokenError(SortLeafException):
     """Raised when token is invalid or expired."""
     
     def __init__(self, message: str = "Invalid or expired token"):
@@ -49,7 +49,7 @@ class InvalidTokenError(TrashIAException):
         )
 
 
-class TokenRevokedError(TrashIAException):
+class TokenRevokedError(SortLeafException):
     """Raised when token has been revoked."""
     
     def __init__(self):
@@ -60,7 +60,7 @@ class TokenRevokedError(TrashIAException):
         )
 
 
-class InactiveUserError(TrashIAException):
+class InactiveUserError(SortLeafException):
     """Raised when user account is deactivated."""
     
     def __init__(self):
@@ -71,7 +71,7 @@ class InactiveUserError(TrashIAException):
         )
 
 
-class WeakPasswordError(TrashIAException):
+class WeakPasswordError(SortLeafException):
     """Raised when password doesn't meet requirements."""
     
     def __init__(self, message: str = "Password does not meet security requirements"):

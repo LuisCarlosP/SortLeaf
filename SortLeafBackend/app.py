@@ -63,7 +63,7 @@ tags_metadata = [
 ]
 
 app = FastAPI(
-    title="TrashIA - AI Waste Classifier",
+    title="SortLeaf - AI Waste Classifier",
     description="API for classifying waste types and determining recyclability",
     version="1.0.0",
     openapi_tags=tags_metadata,
@@ -108,7 +108,7 @@ app.include_router(barcode_router, tags=["Barcode"], dependencies=[Depends(get_a
 @app.get("/", tags=["General"])
 async def root():
     return {
-        "message": "Welcome to TrashIA - AI Waste Classifier",
+        "message": "Welcome to SortLeaf - AI Waste Classifier",
         "version": "1.0.0",
         "endpoints": {
             "health": "/health",

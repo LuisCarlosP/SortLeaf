@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: trashia-config
+  name: sortleaf-config
 data:
   # CORS CONFIGURATION
   ALLOWED_ORIGINS: "http://localhost:5173,http://localhost:8080,https://luiscarlosp.github.io,http://127.0.0.1:50110"
@@ -12,14 +12,14 @@ data:
   PORT: "8000"
   
   # MODEL CONFIGURATION
-  MODEL_PATH: "./models/TrashIAv2.h5"
+  MODEL_PATH: "./models/SortLeafV2.h5"
   
   # RESOURCE LIMITS
   MAX_FILE_SIZE_MB: "5"
   ALLOWED_MIME_TYPES: "image/jpeg,image/png,image/jpg"
   
   # REDIS 
-  REDIS_URL: "redis://trashia-redis:6379/0"
+  REDIS_URL: "redis://sortleaf-redis:6379/0"
   
   # RATE LIMITING
   RATE_LIMIT_PREDICT: "10/minute"

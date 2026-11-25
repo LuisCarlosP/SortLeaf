@@ -6,7 +6,7 @@ from fastapi import Request
 from fastapi.responses import JSONResponse
 from starlette.exceptions import HTTPException as StarletteHTTPException
 
-from exceptions.base_exception import TrashIAException
+from exceptions.base_exception import SortLeafException
 
 logger = logging.getLogger(__name__)
 
@@ -37,7 +37,7 @@ def create_error_response(
     return response
 
 
-async def trashia_exception_handler(request: Request, exc: TrashIAException) -> JSONResponse:
+async def sortleaf_exception_handler(request: Request, exc: SortLeafException) -> JSONResponse:
     correlation_id = generate_correlation_id()
     exc.correlation_id = correlation_id
     
@@ -104,7 +104,7 @@ async def generic_exception_handler(request: Request, exc: Exception) -> JSONRes
 def register_exception_handlers(app):
     from starlette.exceptions import HTTPException as StarletteHTTPException
     
-    app.add_exception_handler(TrashIAException, trashia_exception_handler)
+    app.add_exception_handler(SortLeafException, sortleaf_exception_handler)
     app.add_exception_handler(StarletteHTTPException, http_exception_handler)
     app.add_exception_handler(Exception, generic_exception_handler)
     

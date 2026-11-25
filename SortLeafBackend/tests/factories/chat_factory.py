@@ -31,7 +31,7 @@ class ChatDataFactory:
     ) -> Dict[str, Any]:
         return {
             "session_id": session_id or ChatDataFactory.create_session_id(),
-            "message": "Hello! I'm TrashIA, your recycling assistant.",
+            "message": "Hello! I'm SortLeaf, your recycling assistant.",
             "language": language
         }
     
