@@ -1,24 +1,24 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: trashia-backend
+  name: sortleaf-backend
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: trashia-backend
+      app: sortleaf-backend
   template:
     metadata:
       labels:
-        app: trashia-backend
+        app: sortleaf-backend
     spec:
       securityContext:
         runAsNonRoot: true
         runAsUser: 1000
         fsGroup: 1000
       containers:
-      - name: trashia-backend
-        image: trashia-backend:latest
+      - name: sortleaf-backend
+        image: sortleaf-backend:latest
         imagePullPolicy: IfNotPresent
         securityContext:
           allowPrivilegeEscalation: false
@@ -34,7 +34,7 @@ spec:
         - containerPort: 8000
         envFrom:
         - configMapRef:
-            name: trashia-config
+            name: sortleaf-config
         volumeMounts:
         - name: tmp-volume
           mountPath: /tmp
@@ -57,26 +57,26 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: trashia-redis
+  name: sortleaf-redis
 spec:
   ports:
     - port: 6379
   selector:
-    app: trashia-redis
+    app: sortleaf-redis
 ---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: trashia-redis
+  name: sortleaf-redis
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: trashia-redis
+      app: sortleaf-redis
   template:
     metadata:
       labels:
-        app: trashia-redis
+        app: sortleaf-redis
     spec:
       securityContext:
         runAsNonRoot: true

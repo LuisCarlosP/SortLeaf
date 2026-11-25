@@ -59,7 +59,7 @@ async def check_service_health(
 async def health_check():
     return {
         "status": "healthy",
-        "service": "trashia-api",
+        "service": "sortleaf-api",
         "timestamp": datetime.now(timezone.utc).isoformat()
     }
 

@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: trashia-backend
+    name: sortleaf-backend
     env: docker
     plan: free
     region: oregon
@@ -10,12 +10,12 @@ services:
       - key: REDIS_URL
         fromService:
           type: redis
-          name: trashia-redis
+          name: sortleaf-redis
           property: connectionString
     healthCheckPath: /health
 
   - type: redis
-    name: trashia-redis
+    name: sortleaf-redis
     region: oregon
     plan: free
     maxmemoryPolicy: allkeys-lru

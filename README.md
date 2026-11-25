@@ -1,6 +1,6 @@
-# TrashIA - AI Trash Classifier
+# SortLeaf - AI Trash Classifier
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/LuisCarlosP/TrashIA)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/LuisCarlosP/SortLeaf)
 
 REST API built with FastAPI and TensorFlow to classify types of trash, determine recyclability, and provide AI-powered chat assistance. The backend follows SOLID principles with dependency injection and protocol-based abstractions.
 
@@ -36,8 +36,8 @@ REST API built with FastAPI and TensorFlow to classify types of trash, determine
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/LuisCarlosP/TrashIA.git
-cd TrashIA
+git clone https://github.com/LuisCarlosP/SortLeaf.git
+cd SortLeaf
 ```
 
 ### 2. Create virtual environment
@@ -56,12 +56,12 @@ source venv/bin/activate
 
 ### 4. Install dependencies
 ```bash
-cd TrashIABackend
+cd SortLeafBackend
 pip install -r requirements.txt
 ```
 
 ### 5. Configure environment variables
-Create a `.env` file in `TrashIABackend/`:
+Create a `.env` file in `SortLeafBackend/`:
 ```env
 # Server Configuration
 HOST=0.0.0.0
@@ -69,7 +69,7 @@ PORT=8000
 ENVIRONMENT=development
 
 # Model Configuration
-MODEL_PATH=models/TrashIAv2.h5
+MODEL_PATH=models/SortLeafV2.h5
 
 # Security
 API_KEY=your_secret_api_key
@@ -143,7 +143,7 @@ The API will be available at: `http://localhost:8000`
 To run the test suite:
 
 ```bash
-cd TrashIABackend
+cd SortLeafBackend
 pytest tests/ -v
 ```
 
@@ -334,7 +334,7 @@ The backend follows SOLID principles:
 ## Project Structure
 
 ```
-TrashIABackend/
+SortLeafBackend/
 ├── app.py                 # Main FastAPI application
 ├── run.py                 # Startup script
 ├── requirements.txt       # Python dependencies
@@ -370,7 +370,7 @@ TrashIABackend/
 ├── models/
 │   ├── location_models.py # Location data models
 │   ├── user_models.py     # User and auth models
-│   └── TrashIAv2.h5       # Main classification model
+│   └── SortLeafV2.h5       # Main classification model
 ├── repositories/
 │   └── user_repository.py # User data repository
 ├── routes/

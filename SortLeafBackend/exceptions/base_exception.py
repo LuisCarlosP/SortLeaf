@@ -1,7 +1,7 @@
 from typing import Any, Dict, Optional
 
 
-class TrashIAException(Exception):
+class SortLeafException(Exception):
     
     def __init__(
         self, 

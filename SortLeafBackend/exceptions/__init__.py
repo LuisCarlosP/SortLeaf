@@ -1,4 +1,4 @@
-from .base_exception import TrashIAException
+from .base_exception import SortLeafException
 from .model_exceptions import ModelLoadError, PredictionError
 from .image_exceptions import ImageProcessingError
 from .validation_exceptions import ValidationError
@@ -29,7 +29,7 @@ from .auth_exceptions import (
 )
 
 __all__ = [
-    'TrashIAException',
+    'SortLeafException',
     'ModelLoadError',
     'PredictionError', 
     'ImageProcessingError',

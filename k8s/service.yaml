@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: trashia-backend-lb
+  name: sortleaf-backend-lb
 spec:
   type: LoadBalancer
   selector:
-    app: trashia-backend
+    app: sortleaf-backend
   ports:
     - protocol: TCP
       port: 80

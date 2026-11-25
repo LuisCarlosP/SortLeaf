@@ -1,5 +1,5 @@
 """
-Startup script for TrashIA server.
+Startup script for SortLeaf server.
 Uses configuration defined in config/settings.py and .env file
 """
 import uvicorn
@@ -28,7 +28,7 @@ def main():
     Starts the uvicorn server with project configuration.
     """
     logger.info("=" * 60)
-    logger.info("Starting TrashIA server...")
+    logger.info("Starting SortLeaf server...")
     logger.info("=" * 60)
     
     model_exists = validate_environment()

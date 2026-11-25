@@ -1,8 +1,8 @@
 from typing import Optional, Dict, Any
-from .base_exception import TrashIAException
+from .base_exception import SortLeafException
 
 
-class ExternalAPIError(TrashIAException):
+class ExternalAPIError(SortLeafException):
     
     def __init__(
         self, 
